@@ -8,7 +8,8 @@ public class Main {
         System.out.print("Enter amount to deposit: ");
 
         double amountToDeposit = scanner.nextDouble();
-        System.out.println("Amount to deposit: " + amountToDeposit);
+        balance += amountToDeposit;
+        System.out.println("Balance after deposit: " + balance);
 
         System.out.print("Enter amount to withdraw: ");
         double amountToWithdraw = scanner.nextDouble();
@@ -28,6 +29,10 @@ public class Main {
         System.out.print("Enter customer age: ");
         int customerAge = scanner.nextInt();
         System.out.println("Customer Age: " + customerAge);
+
+        System.out.print("Your ATM at service for " + customerName);
+        balance = (amountToWithdraw + withdrawalcharges);
+        System.out.println("Balance after withdrawal: " + balance);
 
         scanner.close();
 
