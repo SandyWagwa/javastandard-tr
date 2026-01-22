@@ -1,4 +1,4 @@
-package io.github.sandywagwa.assignment2;
+package io.github.sandywagwa.assessments.javase005;
 
 import java.util.Scanner;
 
