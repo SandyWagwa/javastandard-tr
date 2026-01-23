@@ -2,7 +2,7 @@ package io.github.sandywagwa.assessments.javase005;
 
 import java.util.Scanner;
 
-public class Main {
+public class Assessment1_SandraWagwa {
     public static void main(String[] args) {
         variableOperationsProblem1();
         gradeCalculatorProblem2();
