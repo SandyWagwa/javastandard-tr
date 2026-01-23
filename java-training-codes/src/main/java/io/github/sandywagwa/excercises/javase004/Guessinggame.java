@@ -1,10 +1,10 @@
-package io.github.sandywagwa.loops;
+package io.github.sandywagwa.excercises.javase004;
 
 import java.util.Scanner;
 
 public class Guessinggame {
     public static void main(String[] args) {
-        int target = 42;
+        int target = 30;
         int guess = 0;
 
         Scanner scanner = new Scanner(System.in);
