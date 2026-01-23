@@ -40,6 +40,7 @@ public class Calculator {
                 scanner.close();
                 return;
         }
+        scanner.close();
     }
 
 }
