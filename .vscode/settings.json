@@ -3,5 +3,7 @@
         "Ifswitch",
         "righthalfpyramidnumberpattern",
         "Wagwa"
-    ]
+    ],
+    "window.zoomLevel": 0,
+    "java.project.explorer.showNonJavaResources": false
 }
