@@ -1,16 +1,17 @@
 package io.github.sandywagwa.assessments.javase010.assessment2_sandrawagwa.inheritancehierachyproblem2;
 
-public class Employee {
+public class Employee {// base class Employee
     private String name;
     private String Id;
     private double salary;
 
-    public Employee(String name, String Id, double salary) {
+    public Employee(String name, String Id, double salary) {// constructor
         this.name = name;
         this.Id = Id;
         this.salary = salary;
     }
 
+    // getter functions
     public String getName() {
         return name;
     }
@@ -23,6 +24,7 @@ public class Employee {
         return salary;
     }
 
+    // setter functions
     public void setSalary(double salary) {
         this.salary = salary;
     }
@@ -46,20 +48,20 @@ public class Employee {
             this.department = department;
         }
 
-        @Override
+        @Override // override displayInfo method
         public void displayInfo() {
             super.displayInfo();
             System.out.println("Department: " + department);
         }
 
-        @Override
+        @Override // override calculateBonus method
         public void calculateBonus(double percentage) {
             double bonus = (15 / 100) * getSalary() + 1000; // Managers get an additional fixed bonus
             System.out.println("Bonus for Manager " + getName() + " is: " + bonus);
         }
     }
 
-    public class Developer extends Employee {
+    public class Developer extends Employee {// subclass Developer
         private String programmingLanguage;
 
         public Developer(String name, String Id, double salary, String programmingLanguage) {
@@ -67,7 +69,7 @@ public class Employee {
             this.programmingLanguage = programmingLanguage;
         }
 
-        @Override
+        @Override // override displayInfo method
         public void displayInfo() {
             super.displayInfo();
             System.out.println("Programming Language: " + programmingLanguage);
