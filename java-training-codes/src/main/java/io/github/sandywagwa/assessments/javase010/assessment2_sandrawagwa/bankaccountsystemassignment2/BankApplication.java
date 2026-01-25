@@ -1,4 +1,4 @@
-package io.github.sandywagwa.assessments.javase010.assessment2_sandrawagwa.bankaccountsystem;
+package io.github.sandywagwa.assessments.javase010.assessment2_sandrawagwa.bankaccountsystemassignment2;
 
 // Main Functionality to run the Bank Application System
 

@@ -1,4 +1,4 @@
-package io.github.sandywagwa.assessments.javase010.assessment2_sandrawagwa.bankaccountsystem;
+package io.github.sandywagwa.assessments.javase010.assessment2_sandrawagwa.bankaccountsystemassignment2;
 
 // super class linking to the bankaccount class where the IvalidAmountException
 // is thrown
