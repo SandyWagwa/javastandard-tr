@@ -1,8 +1,10 @@
+//Sandra Wagwa
 package io.github.sandywagwa.assessments.javase010.assessment2_sandrawagwa.classdesignproblem1;
 
+//base class Book
 public class Book {
 
-    // Private fields
+    // Private fields being used in the class
     private String title;
     private String author;
     private String isbn;
@@ -69,7 +71,7 @@ public class Book {
     }
 
     // Business methods
-    public void borrowBook() {
+    public void borrowBook() {// borrowBook method
         if (!isAvailable) {
             System.out.println("Book is already borrowed.");// method to borrow a book
         } else {
@@ -78,7 +80,7 @@ public class Book {
         }
     }
 
-    public void returnBook() {
+    public void returnBook() {// returnbook method
         if (isAvailable) {
             System.out.println("Book is already available.");// method to return a book
         } else {

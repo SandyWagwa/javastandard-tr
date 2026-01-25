@@ -1,3 +1,4 @@
+//Sandra Wagwa
 package io.github.sandywagwa.assessments.javase005;
 
 import java.util.Scanner;
