@@ -25,10 +25,10 @@ public class DVD extends LibraryItem {
     @Override
     public void checkout() {
         System.out.println("Checking age restriction for DVD...");
-        super.checkout();
+        super.checkout();// super class utilization
     }
 
-    @Override
+    @Override // overriding function
     public void displayDetails() {
         super.displayDetails();
         System.out.println("Duration: " + duration + " mins");

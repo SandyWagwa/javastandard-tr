@@ -1,0 +1,70 @@
+Assessment 3 – Mid-Term Practical Test
+Problem 4: Code Analysis & Debugging
+
+1. Issues Identified in Original Code
+
+a) Static Field Misuse
+   - companyName was public and not initialized.
+   - Violates encapsulation and allows uncontrolled modification.
+
+b) Constructor Problem
+   - Constructor only set name, not salary.
+   - Incomplete object initialization.
+
+c) Encapsulation Violation
+   - No getters/setters for fields.
+   - Fields were not well protected.
+
+d) Salary Setter Logic Error
+   - "salary = salary;" assigns parameter to itself.
+   - Should use "this.salary = salary;"
+
+e) No Exception Handling
+   - Negative salary only printed message instead of stopping execution.
+   - Should throw an exception.
+
+f) Method Return Type Error
+   - calculateBonus() had void return but returned a value.
+   - Syntax error and logical mistake.
+
+g) Missing Demonstration / Main Method
+   - No usage example to test functionality.
+
+h) Code Quality Issues
+   - No validation for empty employee name.
+   - No documentation or structured output.
+
+--------------------------------------------------
+
+2. Why These Issues Are Problematic
+
+- Breaks OOP principles (encapsulation & data hiding).
+- Causes logical bugs (salary never updated).
+- Compilation errors (void return type).
+- Runtime errors due to lack of validation.
+- Poor maintainability and readability.
+
+--------------------------------------------------
+
+3. Corrections Applied
+
+- Made companyName private static with getter/setter.
+- Added validation in constructor.
+- Fixed setter using "this.salary".
+- Added IllegalArgumentException for invalid inputs.
+- Corrected calculateBonus return type to double.
+- Added displayInfo() and main() for demonstration.
+- Implemented full encapsulation.
+
+--------------------------------------------------
+
+4. Demonstration
+
+The corrected class now:
+- Prevents negative salaries using exceptions.
+- Calculates bonuses correctly.
+- Displays employee and company information.
+- Demonstrates proper static and instance usage.
+
+Result: Code now follows OOP principles, compiles successfully,
+and handles errors robustly.

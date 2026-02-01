@@ -11,7 +11,7 @@ package io.github.sandywagwa.assessments.javase014.assessment3_sandrawagwa.probl
  * - Dynamic method dispatch
  */
 
-public class LibraryTest {
+public class LibraryTest {// main class
     public static void main(String[] args) {
 
         LibraryItem[] items = {
@@ -26,7 +26,6 @@ public class LibraryTest {
             System.out.println();
         }
 
-        // Test exception
-        items[0].checkout(); // Already checked out
+        items[0].checkout(); // Already checked out test exception
     }
 }
