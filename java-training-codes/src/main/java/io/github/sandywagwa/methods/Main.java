@@ -7,6 +7,7 @@ public class Main {
         calculateArea(6);
     }
 
+    // Making methods reusable
     public static void calculateArea(double radius) {
         double area = Math.PI * radius * radius;// 3.142
         System.out.println("Area of circle with radius " + radius + " is: " + area);
