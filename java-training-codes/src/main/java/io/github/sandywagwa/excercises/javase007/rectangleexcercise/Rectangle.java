@@ -9,6 +9,7 @@ public class Rectangle {
         this.width = 1.0;
     }
 
+    // constructor
     public Rectangle(double length, double width) {
         this.length = length;
         this.width = width;
