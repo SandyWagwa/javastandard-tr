@@ -1,7 +1,7 @@
 package io.github.sandywagwa.generics;
 
 // Generic class
-public class Box<T> {
+class Box<T> {
     private T item;
 
     public void setItem(T item) {
